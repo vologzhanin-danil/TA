@@ -1,6 +1,6 @@
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] data = {};
+        int[] data = {68, 97, 12, 15, 31, 40, 22, 50, 53};
 
         System.out.println("Невідсортований масив:");
         for (int n : data) {
