@@ -1,6 +1,6 @@
 public class InsertionSort {
     public static void main(String[] args) {
-        int[] data = {69, 52, 97, 27, 10, 88, 29, 1, 24};
+        int[] data = {68, 97, 12, 15, 31, 40, 22, 50, 53};
 
         System.out.println("Невідсортований масив:");
         for (int n : data) {
