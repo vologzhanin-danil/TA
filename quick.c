@@ -27,8 +27,10 @@ int partition(int a[], int l, int r, int n) {
     printf("Опорний елемент: %d\n", pivot);
 
     while (1) {
-        while (a[i] < pivot) { i++; comparisons++; }
+       while (a[i] < pivot) { i++; comparisons++; }
+        comparisons++;
         while (a[j] > pivot) { j--; comparisons++; }
+        comparisons++;
 
         printf("Поточні індекси: i=%d, j=%d\n", i, j);
 
